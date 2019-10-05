@@ -1,0 +1,52 @@
+ body {
+    padding-top: 5rem;
+}
+
+*{
+    font-family: 'Lobster',
+    cursive;
+}
+label{
+    color: darkgreen !important;
+}
+
+.headerwhite{
+    background: #1ffff0;
+}
+
+#headerbg{
+    background: darkgreen;
+    padding-top:30px;
+}
+
+#headerbg .jumbotron{
+    background: white !important;
+    color:darkgreen !important;
+}
+
+.text-green{
+    color:darkgreen !important; 
+}
+
+.bg-white{
+    background:white;
+}
+
+img#start-image {
+    position: absolute;
+    left: -10000px;
+    top: -10000px;
+}
+
+.setting-value {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+input::value {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red !important;
+    opacity: 1;
+    /* Firefox */
+}
